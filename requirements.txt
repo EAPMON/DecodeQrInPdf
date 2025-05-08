@@ -4,4 +4,4 @@ PyMuPDF==1.25.5
 python-multipart==0.0.20
 pyzbar==0.1.9
 uvicorn==0.34.2
-
+hypercorn==0.14.4
