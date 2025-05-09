@@ -4,5 +4,5 @@ sudo apt-get update && sudo apt-get install -y \
     libzbar0 \
     zbar-tools \
     build-essential \
-    python3-dev
-pip install zbar
+    python3-dev \
+    gcc
