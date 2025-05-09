@@ -4,6 +4,6 @@
     "dockerfile": "Dockerfile"
   },
   "deploy": {
-    "startCommand": "hypercorn main:app --bind \"[::]:$PORT\""
+    "startCommand": "hypercorn main:app --bind \"[::]:8000\""
   }
 }
