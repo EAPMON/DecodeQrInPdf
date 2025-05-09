@@ -1,1 +1,1 @@
-apt-get update && apt-get install -y libzbar0
+sudo apt-get update && sudo apt-get install libzbar-dev libzbar0 zbar-tools -y && python3
