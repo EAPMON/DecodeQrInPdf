@@ -7,6 +7,10 @@ from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
+@app.get("/")
+async def root():
+    return {"message": "API para leer códigos QR desde imágenes o PDFs."}
+
 @app.post("/leer_qr_pdf/")
 async def leer_qr_pdf(file: UploadFile = File(...)):
     codigos_qr_encontrados = []
